@@ -12,6 +12,7 @@ config :api_Brecht_De_Boeck_r0838388,
 
 # Configures the endpoint
 config :api_Brecht_De_Boeck_r0838388, Api_Brecht_De_BoeckR0838388Web.Endpoint,
+  server: true,
   url: [host: "localhost"],
   render_errors: [view: Api_Brecht_De_BoeckR0838388Web.ErrorView, accepts: ~w(json), layout: false],
   pubsub_server: Api_Brecht_De_BoeckR0838388.PubSub,
